@@ -30,7 +30,9 @@ public class LoginPage extends TestBase{
 	
 	public LoginPage() {
 		PageFactory.initElements(driver, this);
+
 		System.out.println("Local Changes");
+
 	}
 	
 	public String validateLoginPageTitle() {
